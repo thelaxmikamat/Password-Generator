@@ -6,7 +6,7 @@ A simple **React-based Password Generator** that allows users to create random p
 
 ## 🔗 Live Project
 
--Check Out Project Here: [Password Generator]()
+-Check Out Project Here: [Password Generator](https://thelaxmikamat.github.io/Password-Generator/)
 
 ---
 
@@ -40,7 +40,8 @@ A simple **React-based Password Generator** that allows users to create random p
 ## 📂 Project Structure
 
 ```text
-
+password-generator/
+|
 ├── index.html
 ├── style.css
 ├── main.js
