@@ -1,0 +1,48 @@
+
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(2, 35, 35);
+}
+#root{
+    background-color: rgb(223, 223, 28);
+    width: 600px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 50px;
+    border: black solid;
+    box-shadow:0px 20px 25px rgb(121, 4, 4);
+}
+.first{
+    font-size: 1.76rem;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.second, h2, label{
+background-color: rgb(223, 223, 28);
+}
+.first input[type="range"], input[type="checkbox"]{
+    accent-color: blue;
+    transform: scale(1.2);
+}
+input[type="checkbox"]{
+    transform: scale(1.5);
+}
+.button{
+    width: 200px;
+    padding: 2px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: rgb(10, 119, 41);
+    color: white;
+    border-radius: 10px;
+}
